@@ -1,6 +1,6 @@
 {
   "name": "smartbytes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple cli to get airtel smartbytes balance",
   "main": "src/index.js",
   "bin": "bin/smartbytes",
