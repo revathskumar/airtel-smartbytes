@@ -1,0 +1,21 @@
+{
+  "name": "smartbytes",
+  "version": "1.0.0",
+  "description": "Simple cli to get airtel smartbytes balance",
+  "main": "src/index.js",
+  "bin": "bin/smartbytes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "airtel",
+    "smartbytes",
+    "balance"
+  ],
+  "author": "Revath S Kumar <rsk@revathskumar.com> (http://blog.revathskumar.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^3.4.0",
+    "puppeteer": "^1.18.1"
+  }
+}
