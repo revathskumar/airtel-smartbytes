@@ -28,7 +28,7 @@ if (!USERNAME || !PASSWORD) {
 
     spinner.text = "Login in process";
 
-    page.on("dialog", async dialog => {
+    await page.on("dialog", async dialog => {
       console.log(dialog.message());
       await dialog.dismiss();
       await browser.close();
@@ -44,13 +44,12 @@ if (!USERNAME || !PASSWORD) {
       ".myvaluehomeinternet0",
       el => el.textContent,
     );
-    console.log("Used :: ", used);
-    console.log("totalAvailable :: ", totalAvailable);
+    console.log(`${used}/${totalAvailable}`);
 
     await browser.close();
   } catch (err) {
-    console.log(err.message);
     spinner.stop();
+    console.log(err.message);
     process.exit();
   }
 })();

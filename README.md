@@ -10,6 +10,23 @@ Install:
 npm i -D smartbytes
 ```
 
+Export `SB_USERNAME` and `SB_PASSWORD`
+
+```
+export SB_USERNAME=<username>
+export SB_PASSWORD=<password>
+```
+
+Run
+
+```
+$ smartbytes
+```
+
+## Preview
+
+![Preview](/images/smartbytes.gif)
+
 ## License
 
 Please see [License](https://github.com/revathskumar/smartbytes/blob/master/License)
