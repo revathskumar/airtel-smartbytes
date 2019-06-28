@@ -25,7 +25,7 @@ $ smartbytes
 
 ## Preview
 
-![Preview](https://github.com/revathskumar/smartbytes/blob/master/images/smartbytes.gif)
+![Preview](https://github.com//revathskumar/airtel-smartbytes/raw/master/images/smartbytes.gif)
 
 ## License
 
